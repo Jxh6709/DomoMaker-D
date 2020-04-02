@@ -99,7 +99,7 @@ const getToken = () => {
         setup(res.csrfToken);
     });
 };
-
+//let's go
 $(document).ready(() => {
     getToken();
 });

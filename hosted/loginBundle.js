@@ -179,7 +179,8 @@ var getToken = function getToken() {
   sendAjax('GET', '/getToken', null, function (res) {
     setup(res.csrfToken);
   });
-};
+}; //let's go
+
 
 $(document).ready(function () {
   getToken();
